@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://fx-pipeline-pub.onrender.com',
   methods: ['GET', 'POST'],
   credentials: true
 }));
